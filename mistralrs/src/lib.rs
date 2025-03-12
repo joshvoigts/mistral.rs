@@ -123,7 +123,7 @@ pub mod v0_4_api {
     pub use super::messages::{
         RequestBuilder, RequestLike, TextMessageRole, TextMessages, VisionMessages,
     };
-    pub use super::model::{best_device, Model};
+    pub use super::model::{best_device, Model, Stream};
     pub use super::speculative::TextSpeculativeBuilder;
     pub use super::text_model::{PagedAttentionMetaBuilder, TextModelBuilder};
     pub use super::vision_model::VisionModelBuilder;
